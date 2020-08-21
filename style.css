@@ -47,7 +47,10 @@ body {
 }
 #about {
   padding-top: 3rem;
-  height: 100%;
+  overflow: auto;
+}
+.skills-container {
+  overflow: auto;
 }
 .image-container img {
   max-height: 50vh;
