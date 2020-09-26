@@ -21,7 +21,7 @@ body {
 }
 #about,
 #projects {
-  background-color: rgba(144, 76, 161, 0.091);
+  background-color: rgba(111, 79, 54, 0.091);
   margin: 20px auto;
 }
 .about-links {
@@ -72,7 +72,7 @@ form {
   font-size: 1.2em !important;
 }
 .btn-primary {
-  background-color: #6648b1;
+  background-color: #561aee;
   border: 1px solid #6648b1;
 }
 .btn-primary:hover {
