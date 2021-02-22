@@ -91,9 +91,13 @@ form {
 }
 .iconify {
   font-size: 3.5rem;
-  max-width: 100px;
   margin: 1rem;
 }
+
+.card-icon {
+  max-width: 120px;
+}
+
 .card {
   margin: 8rem auto;
   box-shadow: 1px 1px 20px 1px #aaaaaa;
