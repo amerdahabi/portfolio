@@ -21,7 +21,6 @@ body {
 }
 #about,
 #projects {
-  background-color: rgba(111, 79, 54, 0.091);
   margin: 20px auto;
 }
 .about-links {
@@ -92,6 +91,7 @@ form {
 }
 .iconify {
   font-size: 3.5rem;
+  max-width: 100px;
   margin: 1rem;
 }
 .card {

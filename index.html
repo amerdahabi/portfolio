@@ -34,7 +34,10 @@
               <a class="nav-link active" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#wp-projects">WP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#js-projects">JS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -53,16 +56,63 @@
     <div class="container-fluid header">
       <div class="row text-center">
         <h1 class="display-3 col-12">Hi, I'm Amer Dahabi</h1>
-        <h4 class="col-12">Fullstack Web Developer</h4>
+        <h4 class="col-12">Web Developer</h4>
       </div>
     </div>
 
-    
-    <!--- Projects cards -->
-    <div class="container-fluid padding" id="projects">
+    <!---WP projects -->
+    <div class="container-fluid padding" id="wp-projects" >
       <div class="row welcome text-center">
         <div class="col-12">
-          <h1 class="display-4">Projects</h1>
+          <h1 class="display-4">WordPress Projects</h1>
+        </div>
+        <hr class="my-4" />
+      </div>
+
+      <div class="card bg-light mb-3 p-1">
+        <img class="card-img-top" src="img/shamyat.png" alt="Card image cap" />
+        <div class="card-body ">
+          <h5 class="card-title">Shamyat Sweets</h5>
+          <p class="card-text">
+            Wordpress eCommerce Website</p>
+          <p class="card-text">Built with: Wordpress, Elementor, WooCommerce, Stripe</p>
+          <div>
+            <span class="iconify" data-icon="logos:wordpress" data-inline="false"></span>
+            <span class="iconify" data-icon="fa-brands:elementor" data-inline="false"></span>
+            <span class="iconify" data-icon="logos:woocommerce" data-inline="false"></span>
+            <span class="iconify" data-icon="logos:stripe" data-inline="false"></span>
+          </div>
+          <br />
+          <a
+            href="https://www.shamyat-sweets.com/da_dk/"
+            class="btn btn-secondary"
+            >Visit Site</a
+          >
+        </div>
+      </div>
+      <div class="card bg-light mb-3 p-1">
+        <img class="card-img-top" src="img/masbil.png" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Mas bil pleje</h5>
+          <p class="card-text">
+            Wordpress Booking Website
+          </p>
+          <p class="card-text">Built with:</p>
+          <div>
+            <span class="iconify" data-icon="logos:wordpress" data-inline="false"></span>
+          </div>
+          <br />
+          <a href="https://www.masbilpleje.com/" class="btn btn-secondary">Visit Site</a>
+        </div>
+      </div>
+      </div>
+    </div>
+    
+    <!--- JS Projects -->
+    <div class="container-fluid padding" id="js-projects">
+      <div class="row welcome text-center">
+        <div class="col-12">
+          <h1 class="display-4">JS Projects</h1>
         </div>
         <hr class="my-4" />
       </div>
@@ -193,10 +243,12 @@
       </div>
     </div>
 
+    
+
     <!--- About -->
     <div class="container padding" id="about">
-      <div class="row align-items-center ">
-        <div class="col-ms-12 col-md-6 col-lg-6 p-5">
+      <div class="row justify-content-center about-div">
+        <div class=" col-md-6 col-lg-6  p-5">
           <h2 class="padding">About me</h2>
           <p>
             I'm a Copenhagen based full-stack web developer. Always trying to
@@ -212,11 +264,11 @@
             projects from scratch.
           </p>
           <br />
-          <div class="row">
+          <div class="row ">
             <div class="about-links">
             <a
               href="./resume/AmerCV.pdf"
-              class="btn btn-primary"
+              class="btn btn-secondary"
               download
             >
               <i class="fa fa-download"></i> Download My Resume</a
@@ -231,14 +283,14 @@
             >
               <input
                 type="submit"
-                class="btn btn-primary btn-send"
+                class="btn btn-secondary btn-send"
                 value="Send Me Email"
               />
             </form></div>
           </div>
         </div>
-        <div class="col-ms-12 image-container">
-          <img src="img/amer.png" alt="desk image" />
+        <div class="col-ms-12 col-md-6 w-auto  image-container">
+          <img class='w-100' src="img/DSC_01117.JPG" alt="desk image" />
         </div>
       </div>
     </div>
@@ -324,6 +376,18 @@
             data-inline="false"
           ></span>
           <h3 class="display-6">KnexJS</h3>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <span class="iconify" data-icon="el:wordpress" data-inline="false"></span>
+          <h3 class="display-6">WordPress</h3>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <span class="iconify" data-icon="la:elementor" data-inline="false"></span>
+          <h3 class="display-6">Elementor</h3>
+        </div>
+        <div class="col-md-4">
+          <span class="iconify" data-icon="whh:webhostinghub" data-inline="false"></span>
+          <h3 class="display-6">WebHosting</h3>
         </div>
       </div>
     </div>
